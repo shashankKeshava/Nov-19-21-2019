@@ -5,3 +5,11 @@
 
 * Person has another Person as a friend
 
+* Create the following after defining the classes
+
+```
+sam, 34
+bmw, black (2000 CC)
+santro, yellow (1000 CC)
+sam's friend is ram 35
+```
