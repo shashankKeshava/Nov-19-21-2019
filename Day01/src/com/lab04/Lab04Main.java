@@ -24,6 +24,7 @@ public class Lab04Main {
 	private static void oldStyle(String input) {
 		String[] items = input.split(" ");
 		int total = 0;
+		//external iterator
 		for (String item : items) {
 			int num = Integer.parseInt(item);
 			total += num;
