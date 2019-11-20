@@ -12,6 +12,10 @@ public class Account {
 		this.balance = balance;
 	}
 	
+	public int getMaximumAllowableWithdrawals() {
+		return 3;
+	}
+	
 	
 	public double getBalance() {
 		return balance;
@@ -30,7 +34,7 @@ public class Account {
 		Transaction txn = new Transaction("Withdraw", amount);
 		transactions.add(txn);
 		
-		if(withdrawCount > 3) {
+		if(withdrawCount > getMaximumAllowableWithdrawals()) {
 			double fees = amount * 0.005;
 			balance -= fees;
 			Transaction txnObj = new Transaction("Interest", amount);
