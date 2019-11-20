@@ -9,7 +9,7 @@ public class AccountUser {
 	}
 	
 	private static void playWithPremiumCurrentAccount() {
-		PremiumCurrentAccount account = new PremiumCurrentAccount("ORR Caterers", 20000000);
+		Account account = new PremiumCurrentAccount("ORR Caterers", 20000000);
 		account.deposit(1000);
 		account.deposit(1000);
 		for(int i = 0; i < 200; i++) {
@@ -21,7 +21,7 @@ public class AccountUser {
 	}
 	
 	private static void playWithCurrentAccount() {
-		CurrentAccount account = new CurrentAccount("Intuit Caterers", 2000000);
+		Account account = new CurrentAccount("Intuit Caterers", 2000000);
 		account.deposit(1000);
 		account.deposit(1000);
 		account.withdraw(100);
