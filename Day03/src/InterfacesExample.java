@@ -12,7 +12,6 @@ public class InterfacesExample {
 		Person sam = new Person();
 		sam.vehicle = new Scooter();
 		sam.vehicle = new Car();
-		
 	}
 	static void drive(Vehicle vehicle) {
 		vehicle.start();
@@ -22,6 +21,15 @@ public class InterfacesExample {
 	}
 	
 
+}
+
+
+interface Alarm {
+	
+}
+
+class Door {
+	Alarm alarm;
 }
 
 class Person {
