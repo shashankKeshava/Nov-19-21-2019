@@ -1,3 +1,23 @@
+## Exception Handling
+
+* java.lang.Exception
+* Any error in your application, JVM constructs an Exception class object
+* Populates the object with the error information
+* Gives it to your application
+* If you have written code to handle it, no problems
+* Else it throws it and stops the progress
+
+##Built-in packages
+
+* java.lang is the default package which is imported automatically
+* java.util contains all collections
+* java.io, java.nio
+* java.net
+* java.util.stream -> Java 8 Stream API
+* java.xml
+* java.lang.Object is the base class for all the classes
+
+
 ## Access specifiers
 
 * private - members are accessible only with that class
