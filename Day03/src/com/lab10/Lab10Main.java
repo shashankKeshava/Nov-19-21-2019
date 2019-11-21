@@ -6,6 +6,7 @@ public class Lab10Main {
 		int randomNumber = (int)(Math.random() * 100);
 		for (int i = 0; i < randomNumber; i++) {
 			Person p1 = new Person();
+			//DB.add(p1);
 		}
 		
 		System.out.println(Person.getObjectCount());
