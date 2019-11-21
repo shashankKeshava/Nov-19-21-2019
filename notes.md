@@ -1,3 +1,12 @@
+## Access specifiers
+
+* private - members are accessible only with that class
+* package friendly - __default__
+* protected - package friendly + any derived class 
+* public - members are accessible from anywhere
+
+
+
 ## ToDO
 
 * Create a Person class
